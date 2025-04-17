@@ -19,7 +19,7 @@ export default function Home() {
         className={styles.logo}
       />
       <h1 className={styles.hidden}>JS Designs</h1>
-      <h2>Elevate Your Brand. Transform Your Vision.</h2>
+      <h2 className={styles.h2}>Elevate Your Brand. Transform Your Vision.</h2>
       <Image
         src={shopifyImage}
         alt="Shopify"
@@ -35,7 +35,7 @@ export default function Home() {
         height={100}
         className={styles.mainImage}
       />
-      <p>In today's competitive market, standing out is not just an advantage—it's essential. At JS Designs, we understand the power of <strong>strategic design</strong>. We combine <strong>artistic innovation</strong> with meticulous <strong>execution</strong> to deliver exceptional visual solutions that elevate your brand and achieve your business objectives.</p>
+      <p>In today&apos;s competitive market, standing out is not just an advantage—it&apos;s essential. At JS Designs, we understand the power of <strong>strategic design</strong>. We combine <strong>artistic innovation</strong> with meticulous <strong>execution</strong> to deliver exceptional visual solutions that elevate your brand and achieve your business objectives.</p>
       <div className={styles.row}>
         <div>
           <Image
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
 
       </div>
-      <p className={styles.quote}>"We work closely with you to understand your unique vision and translate it into captivating visuals that leave a lasting impression. Let us bring your ideas to life."</p>
+      <p className={styles.quote}>&quot;We work closely with you to understand your unique vision and translate it into captivating visuals that leave a lasting impression. Let us bring your ideas to life.&quot;</p>
 
       <Image
             src={aurora}
@@ -73,7 +73,7 @@ export default function Home() {
         <div className={styles.row}>
           <div>
             <h3>Mission Statement</h3>
-            <p>"To craft visually compelling solutions that empower businesses to thrive, blending innovation with precision to exceed expectations every time."</p>
+            <p>&quot;To craft visually compelling solutions that empower businesses to thrive, blending innovation with precision to exceed expectations every time.&quot;</p>
           </div>
           <div>
             <p><a href="privacypolicy">Privacy Policy</a></p>

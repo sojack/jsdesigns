@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import logo from "../images/jsdesigns-logo-onecolor-reverse.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const PrivacyPolicy = () => {
@@ -44,7 +45,7 @@ const PrivacyPolicy = () => {
             <p>
                 If you have any questions about this privacy policy, please contact us at info@jsdesigns.ca
             </p>
-            <a href="/"><h2>Back to Home</h2></a>
+            <p><Link href="/">Back to Home</Link></p>
         </div>
         </div>
         </div>

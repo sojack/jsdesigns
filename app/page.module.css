@@ -14,17 +14,14 @@
   margin: 0 auto;
   font-size: 1.2rem;
   line-height: 2rem;
-  h1{
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin: 1.5em 0 0;
-    text-align: center;
-  }
-  h2{
-    text-align: center;
-  }
-
 }
+.h1{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 1.5em 0 0;
+  text-align: center;
+}
+
 .logo{
   height: auto;
   margin: 2em auto;
