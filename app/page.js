@@ -19,7 +19,7 @@ export default function Home() {
           className={styles.logo}
         />
         <h1 className={styles.hidden}>JS Designs</h1>
-        <h2 className={styles.h2}>Elevate Your Brand. Transform Your Vision.</h2>
+        <h2 className={styles.center}>Elevate Your Brand. Transform Your Vision.</h2>
         <Image
           src={shopifyImage}
           alt="Shopify"
@@ -80,14 +80,14 @@ export default function Home() {
             <p>&quot;To craft visually compelling solutions that empower businesses to thrive, blending innovation with precision to exceed expectations every time.&quot;</p>
           </div>
           <div>
-            <h3>Contact Us</h3>
-            <p>49 Roy Harper Avenue<br />
+            <h3 className={styles.center}>Contact Us</h3>
+            <p className={styles.center}>49 Roy Harper Avenue<br />
             Aurora, ON L4G0V4<br />
             Phone: (647) 896-0834<br />
             email: jack@jsdesigns.ca</p>
           </div>
           <div>
-            <p><a href="privacypolicy">Privacy Policy</a></p>
+            <p className={styles.center}><a href="privacypolicy">Privacy Policy</a></p>
           </div>          
         </div>
         <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.<br />
