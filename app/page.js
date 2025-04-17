@@ -17,6 +17,7 @@ export default function Home() {
         width={200}
         height={100}
         className={styles.logo}
+        quality={90}
       />
       <h1 className={styles.hidden}>JS Designs</h1>
       <h2 className={styles.h2}>Elevate Your Brand. Transform Your Vision.</h2>
@@ -25,6 +26,7 @@ export default function Home() {
         alt="Shopify"
         width={200}
         height={100}
+        quality={90}
         className={styles.mainImage}
       />
       <p>Our studio crafts compelling visual experiences that resonate with your audience and drive results. We are your partner in creating impactful design solutions, from print to digital.</p>
@@ -33,6 +35,7 @@ export default function Home() {
         alt="Tim Hortons Signage"
         width={200}
         height={100}
+        quality={90}
         className={styles.mainImage}
       />
       <p>In today&apos;s competitive market, standing out is not just an advantage—it&apos;s essential. At JS Designs, we understand the power of <strong>strategic design</strong>. We combine <strong>artistic innovation</strong> with meticulous <strong>execution</strong> to deliver exceptional visual solutions that elevate your brand and achieve your business objectives.</p>
@@ -43,6 +46,7 @@ export default function Home() {
             alt="Tim Hortons Icon Sign"
             width={200}
             height={100}
+            quality={90}
             className={styles.mainImage2}
           />
         </div>
@@ -65,6 +69,7 @@ export default function Home() {
             alt="Aurora Sign"
             width={200}
             height={100}
+            quality={90}
             className={styles.mainImage}
           />
 
