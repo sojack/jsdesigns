@@ -1,0 +1,81 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  color: #f2f2f2;
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 1.5em 0 0;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+
+}
+.logo{
+  height: auto;
+  margin: 2em auto;
+  display: block;
+}
+
+.mainImage{
+  width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+.mainImage2{
+  width: 100%;
+  height: auto;
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* .page p{line-height: 1.3rem;} */
+.page p+p{
+  margin-top: 1rem;
+}
+
+.quote{
+  background-color: #000000;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin: 1em 0;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.footer{
+  margin: 2em 0;
+  text-align: left;
+  font-size: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+
+@media (max-width: 600px) {
+ 
+}
