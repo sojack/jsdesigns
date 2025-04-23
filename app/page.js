@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "./images/jsdesigns-logo-onecolor-reverse.svg";
 import shopifyImage from "./images/shopify.jpg";
 import tims1 from "./images/tims-01.jpg";
@@ -87,7 +88,8 @@ export default function Home() {
             email: jack@jsdesigns.ca</p>
           </div>
           <div>
-            <p className={styles.center}><a href="privacypolicy">Privacy Policy</a></p>
+            <p className={styles.center}><Link href="privacypolicy">Privacy Policy</Link></p>
+            <p className={styles.center}><Link href="termsofuse">Terms of Use</Link></p>
           </div>          
         </div>
         <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.<br />
