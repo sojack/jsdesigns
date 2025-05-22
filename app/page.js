@@ -8,6 +8,8 @@ import tims2 from "./images/tims-06.jpg";
 import aurora from "./images/aurora.jpg";
 import mars from "./images/mars-poster.jpg";
 
+import Latest from "./components/latest";
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -72,6 +74,7 @@ export default function Home() {
             quality={60}
             className={styles.mainImage}
           />
+          <Latest />
 
       </div> {/* // end of container */}
       <div className={styles.footer}>
