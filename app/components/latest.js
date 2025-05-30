@@ -1,6 +1,7 @@
 import Image from "next/image";
 import starbucks from ".././images/starbucks.jpg";
 import CanadianTire from ".././images/CanadianTire-r1.jpg";
+import styles from './latest.module.css';
 
 const Latest = () => {
     return (
@@ -12,6 +13,8 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
+            className={styles.mainImage}
+
           />
             <Image
             src={CanadianTire}
@@ -19,6 +22,8 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
+            className={styles.mainImage}
+
           />
         </div>
 

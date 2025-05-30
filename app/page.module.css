@@ -29,9 +29,9 @@
 }
 
 .mainImage{
-  width: 100%;
   height: auto;
-  margin: 2em auto;
+  margin: 2em calc(50% - 50vw);
+  width: 100vw;
 }
 .mainImage2{
   width: 100%;
