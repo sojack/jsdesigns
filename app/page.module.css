@@ -30,7 +30,7 @@
 
 .mainImage{
   height: auto;
-  margin: 2em calc(50% - 50vw);
+  margin: 3em calc(50% - 50vw);
   width: 100vw;
 }
 .mainImage2{

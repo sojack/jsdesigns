@@ -1,12 +1,13 @@
 import Image from "next/image";
 import starbucks from ".././images/starbucks.jpg";
 import CanadianTire from ".././images/CanadianTire-r1.jpg";
+import CanadianTireTruck from ".././images/CanadianTire-Truck.jpg";
 import styles from './latest.module.css';
 
 const Latest = () => {
     return (
         <div>
-            <h2>Latest Projects</h2>
+            <h2 className={styles.header}>Latest Projects</h2>
             <Image
             src={starbucks}
             alt="Starbucks Sign"
@@ -19,6 +20,15 @@ const Latest = () => {
             <Image
             src={CanadianTire}
             alt="Canadian Tire Sign"
+            width={1000}
+            height={563}
+            quality={60}
+            className={styles.mainImage}
+
+          />
+            <Image
+            src={CanadianTireTruck}
+            alt="Canadian Tire Truck"
             width={1000}
             height={563}
             quality={60}
