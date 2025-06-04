@@ -3,6 +3,7 @@ import starbucks from ".././images/starbucks.jpg";
 import CanadianTire from ".././images/CanadianTire-r1.jpg";
 import CanadianTireTruck from ".././images/CanadianTire-Truck.jpg";
 import ttcBus from ".././images/ttc-bus.jpg";
+import ttcLogo from ".././images/TTC-logo-2.jpg";
 import styles from './latest.module.css';
 
 const Latest = () => {
@@ -45,6 +46,15 @@ const Latest = () => {
             className={styles.mainImage}
 
           />
+          <Image
+            src={ttcLogo}
+            alt="Bus Graphics"
+            width={1000}
+            height={563}
+            quality={60}
+            className={styles.mainImage}
+          />
+
         </div>
 
     );
