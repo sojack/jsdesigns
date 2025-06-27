@@ -16,7 +16,6 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-            className={styles.mainImage}
           />
             <Image
             src={starbucks}
@@ -24,7 +23,6 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-            className={styles.mainImage}
 
           />
 
@@ -34,7 +32,6 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-            className={styles.mainImage}
 
           />
             <Image
@@ -43,7 +40,6 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-            className={styles.mainImage}
 
           />
           <Image
@@ -52,7 +48,6 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-            className={styles.mainImage}
           />
 
         </div>

@@ -38,7 +38,6 @@ export default function Home() {
           width={1000}
           height={563}
           quality={60}
-          className={styles.mainImage}
         />
         <p>In today&apos;s competitive market, standing out is not just an advantage—it&apos;s essential. At JS Designs, we understand the power of <strong>strategic design</strong>. We combine <strong>artistic innovation</strong> with meticulous <strong>execution</strong> to deliver exceptional visual solutions that elevate your brand and achieve your business objectives.</p>
         <div className={styles.row}>
