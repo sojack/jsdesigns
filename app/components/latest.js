@@ -45,7 +45,7 @@ const Latest = () => {
             width={1000}
             height={563}
             quality={60}
-
+            className={styles.mainImage2}
           />
           <Image
             src={ttcLogo}
