@@ -6,7 +6,6 @@ import shopifyImage from "./images/shopify.jpg";
 import tims1 from "./images/tims-01.jpg";
 import tims2 from "./images/tims-06.jpg";
 import aurora from "./images/aurora.jpg";
-import mars from "./images/mars-poster.jpg";
 
 import Latest from "./components/latest";
 
@@ -96,8 +95,7 @@ export default function Home() {
             <p className={styles.center}><Link href="termsofuse">Terms of Use</Link></p>
           </div>          
         </div>
-        <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.<br />
-        Website by JS Designs</p> 
+        <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.</p> 
       </div>
       
     </div>
