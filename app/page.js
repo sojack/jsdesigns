@@ -21,7 +21,7 @@ export default function Home() {
           className={styles.logo}
         />
         <h1 className={styles.hidden}>JS Designs</h1>
-        <h2 className={styles.center}>Elevate Your Brand. Transform Your Vision.</h2>
+        <h2 className={styles.center}>Elevate Your Brand.</h2>
         <Image
           src={shopifyImage}
           alt="Shopify"
@@ -80,8 +80,6 @@ export default function Home() {
       <div className={styles.footer}>
         <div className={styles.row}>
           <div>
-            <h3>Mission Statement</h3>
-            <p>&quot;To craft visually compelling solutions that empower businesses to thrive, blending innovation with precision to exceed expectations every time.&quot;</p>
           </div>
           <div>
             <h3 className={styles.center}>Contact Us</h3>
