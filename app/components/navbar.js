@@ -51,8 +51,8 @@ export default function Navbar() {
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d={open ? "M6 18L18 6M6 6l12 12" : "M3 6h18M3 12h18M3 18h18"}
-              stroke="currentColor"
-              strokeWidth="2"
+              stroke="#85cd06"
+              strokeWidth="3"
               strokeLinecap="round"
             />
           </svg>
