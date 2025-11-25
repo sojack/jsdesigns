@@ -16,8 +16,8 @@ const Signage = () => {
                 <h1>Wall, Window & Floor Graphics</h1>
                 <h2>Design that sticks — beautifully.</h2>
                 <p><strong>Wall Graphics:</strong> Custom murals, feature walls, and branding that bring your workspace to life.</p>
-                <strong>Window Graphics:</strong> From full coverage to frosted or perforated vinyl, perfect for privacy, branding, or seasonal promotions. 
-                <strong>Floor Graphics:</strong> Durable, slip-resistant vinyl for wayfinding, safety, or creative décor.
+                <p><strong>Window Graphics:</strong> From full coverage to frosted or perforated vinyl, perfect for privacy, branding, or seasonal promotions. </p>
+                <p><strong>Floor Graphics:</strong> Durable, slip-resistant vinyl for wayfinding, safety, or creative décor.</p>
                 {/* <h1>Dimensional & Outdoor Signage</h1>
                 <h2>Make your brand stand out — literally.</h2>
                 <p><strong>Dimensional Logos:</strong> Custom 3D lettering and logos for lobbies and reception areas.</p>
@@ -26,8 +26,8 @@ const Signage = () => {
                 <h1>Custom Printed Graphics</h1>
                 <h2>Precision printing, endless possibilities.</h2>
                 <p><strong>Custom Decals:</strong> Any size, any purpose — ideal for product labeling, equipment branding, or promotional giveaways.</p>
-                <strong>Industrial & Outdoor Decals:</strong> Built to withstand the elements — perfect for outdoor machinery or heavy-duty use.
-                <strong>Vehicle Graphics:</strong> Full or partial wraps, fleet branding, or simple door logos to promote your business on the move.                    
+                <p><strong>Industrial & Outdoor Decals:</strong> Built to withstand the elements — perfect for outdoor machinery or heavy-duty use.</p>
+                <p><strong>Vehicle Graphics:</strong> Full or partial wraps, fleet branding, or simple door logos to promote your business on the move.</p>
             </div>
     );
 };

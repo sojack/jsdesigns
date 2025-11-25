@@ -49,7 +49,7 @@ export default function Home() {
             <ul>
               <li><strong>Print Materials:</strong> Brochures, business cards, posters, and more.</li>
               <li><strong>Online Menus:</strong> Engaging digital menus for restaurants and cafes.</li>
-              <li><strong>Digital Screen </strong>Art: Dynamic visuals for digital displays and presentations.</li>
+              <li><strong>Digital Screen Art:</strong> Dynamic visuals for digital displays and presentations.</li>
               <li><strong>3D Rendering:</strong> Realistic visualizations for architectural and product designs.</li>
               <li><strong>Brand Identity:</strong> Logo design, style guides, and brand strategy.</li>
             </ul>
