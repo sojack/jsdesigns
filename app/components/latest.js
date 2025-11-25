@@ -26,8 +26,6 @@ const Latest = () => {
             height={563}
             quality={60}
             className={styles.mainImage2}
-
-
           />
 
             <Image

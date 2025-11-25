@@ -1,0 +1,26 @@
+.footer{
+  margin: 2em 0;
+  text-align: left;
+  font-size: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.center{
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+
+.row{
+  margin-top: 5em;
+  margin-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.footer h3{
+  margin-top: 0;
+}

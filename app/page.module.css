@@ -11,7 +11,7 @@
 
 .container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 1em auto;
   font-size: 1.2rem;
   line-height: 2rem;
 }
@@ -59,21 +59,8 @@
   line-height: 3rem;
 }
 
-.footer{
-  margin: 2em 0;
-  text-align: left;
-  font-size: 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.center{
-  text-align: center;
-}
-.hidden{
-  display: none;
-}
 
 @media (max-width: 600px) {
  
 }
+

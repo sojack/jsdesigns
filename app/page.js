@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "./images/jsdesigns-logo-onecolor-reverse.svg";
 import shopifyImage from "./images/shopify.jpg";
 import tims1 from "./images/tims-01.jpg";
 import tims2 from "./images/tims-06.jpg";
@@ -13,13 +12,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.container  }>
-        <Image
-          src={logo}
-          alt="JS Designs Logo"
-          width={200}
-          height={100}
-          className={styles.logo}
-        />
         <h1 className={styles.hidden}>JS Designs</h1>
         <h2 className={styles.center}>Elevate Your Brand.</h2>
         <Image
@@ -77,24 +69,7 @@ export default function Home() {
           <Latest />
 
       </div> {/* // end of container */}
-      <div className={styles.footer}>
-        <div className={styles.row}>
-          <div>
-                    <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.</p> 
-          </div>
-          <div>
-            <h3 className={styles.center}>Contact Us</h3>
-            <p className={styles.center}>49 Roy Harper Avenue<br />
-            Aurora, ON L4G0V4<br />
-            Phone: (647) 896-0834<br />
-            email: jack@jsdesigns.ca</p>
-          </div>
-          <div>
-            <p className={styles.center}><Link href="privacypolicy">Privacy Policy</Link></p>
-            <p className={styles.center}><Link href="termsofuse">Terms of Use</Link></p>
-          </div>          
-        </div>
-      </div>
+
       
     </div>
     
