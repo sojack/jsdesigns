@@ -3,6 +3,8 @@ import Image from "next/image";
 import gold from "../images/reception-gold.jpg";
 import shopify from "../images/shopify.jpg";
 import rbc from "../images/rbc-logo.jpg";
+import day from "../images/dayRoss-building.jpg";
+import orion from "../images/Orion-Dental-Layout.jpg";
 
 
 
@@ -28,8 +30,13 @@ const Signage = () => {
                     <p>Effective outdoor signage is crucial for attracting customers and enhancing brand visibility. At JS Designs, we specialize in creating eye-catching and durable signage solutions that make a lasting impression. From storefront signs to banners and vehicle wraps, our designs are tailored to meet your business needs and comply with local regulations.</p>
                     <h3>Design, Manufacturing, Instalation &amp; Maintenance</h3>
                     <Image
-                        src={gold}
-                        alt="Outdoor Signage sample"
+                        src={day}
+                        alt="Day Ross Building"
+                        className={styles.mainImage2}
+                    />
+                    <Image
+                        src={orion}
+                        alt="Orion Dental Windows"
                         className={styles.mainImage2}
                     />
                 </div>
