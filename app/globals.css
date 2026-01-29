@@ -155,7 +155,8 @@ strong{
 }
 
 .nav-link:hover {
-  background: #f3f4f6;
+  background: #a2ff00;
+  color: #171717;
 }
 
 .nav-link--active {
@@ -203,7 +204,8 @@ strong{
 }
 
 .mobile-link:hover {
-  background: #f3f4f6;
+  background: #a2ff00;
+  color: #171717;
 }
 
 .mobile-link--active {
