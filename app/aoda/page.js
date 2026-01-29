@@ -73,7 +73,7 @@ const AODACompliance = () => {
           </div>
         </section>
 
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <h2>Stop Guessing. Start Complying.</h2>
 
           <p className={styles.ctaText}>
@@ -92,7 +92,7 @@ const AODACompliance = () => {
               Get My Free Audit
             </button>
           </form>
-        </section>
+        </section> */}
 
         <section className={styles.section}>
           <h2>Why Choose JS Designs?</h2>
