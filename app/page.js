@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.container  }>
-        <h1 className={styles.hidden}>JS Designs</h1>
+        <h1 className="visually-hidden">JS Designs</h1>
         <h2 className={styles.center}>Elevate Your Brand.</h2>
         <Image
           src={shopifyImage}
@@ -54,6 +54,12 @@ export default function Home() {
               <li><strong>Brand Identity:</strong> Logo design, style guides, and brand strategy.</li>
             </ul>
           </div>
+        </div>
+
+        <div className={styles.aodaSection}>
+          <h2>Take the Stress Out of AODA Reporting</h2>
+          <p>Don&apos;t guess when it comes to government compliance. From deep-tech audits to filing your 2026 Accessibility Report, we handle the technical heavy lifting so you can focus on running your business.</p>
+          <Link href="/aoda" className={styles.aodaLink}>Read More: Get Report-Ready Today</Link>
         </div>
 
         <p className={styles.quote}>&quot;We work closely with you to understand your unique vision and translate it into captivating visuals that leave a lasting impression. Let us bring your ideas to life.&quot;</p>

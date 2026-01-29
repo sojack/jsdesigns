@@ -60,6 +60,37 @@
 }
 
 
+.aodaSection {
+  background: rgba(162, 255, 0, 0.08);
+  border: 1px solid rgba(162, 255, 0, 0.25);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.aodaSection h2 {
+  margin-top: 0;
+  color: #a2ff00;
+}
+
+.aodaLink {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #a2ff00;
+  color: #171717;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.aodaLink:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(162, 255, 0, 0.3);
+}
+
 @media (max-width: 600px) {
  
 }
