@@ -9,6 +9,7 @@ const LINKS = [
   { href: "/", label: "Home" },
   { href: "/signage", label: "Signage" },
   { href: "/customsolutions", label: "Custom Solutions" },
+  { href: "/aoda", label: "AODA Compliance" },
 //   { href: "/contact", label: "Contact" },
 ];
 
