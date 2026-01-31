@@ -16,7 +16,7 @@ export default function Home() {
         <h2 className={styles.center}>Elevate Your Brand.</h2>
         <Image
           src={shopifyImage}
-          alt="Shopify"
+          alt="the Shopify logo produced with Acrylic and colour vinyl"
           width={1000}
           height={563}
           quality={60}
@@ -25,7 +25,7 @@ export default function Home() {
         <p>Our studio crafts compelling visual experiences that resonate with your audience and drive results. We are your partner in creating impactful design solutions, from print to digital.</p>
         <Image
           src={tims1}
-          alt="Tim Hortons Signage"
+          alt="Tim Hortons Signage made of acrylic and vinyl"
           width={1000}
           height={563}
           quality={60}
@@ -37,7 +37,7 @@ export default function Home() {
           <div>
             <Image
               src={tims2}
-              alt="Tim Hortons Icon Sign"
+              alt="a smaller Tim Hortons Icon Sign made of acrylic and vinyl"
               width={492}
               height={492}
               quality={100}
@@ -66,7 +66,7 @@ export default function Home() {
 
         <Image
             src={aurora}
-            alt="Aurora Sign"
+            alt="Town of Aurora logo made of acrylic and vinyl"
             width={1000}
             height={563}
             quality={60}

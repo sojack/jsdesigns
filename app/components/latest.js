@@ -12,7 +12,7 @@ const Latest = () => {
             <h2 className={styles.header}>Latest Projects</h2>
             <Image
             src={ttcBus}
-            alt="Bus Graphics"
+            alt="Bus with custom Tim Hortons advertising wrap"
             width={1000}
             height={563}
             quality={60}
@@ -21,7 +21,7 @@ const Latest = () => {
           />
             <Image
             src={starbucks}
-            alt="Starbucks Sign"
+            alt="Starbucks logo made of whate and green foam pvc"
             width={1000}
             height={563}
             quality={60}
@@ -30,7 +30,7 @@ const Latest = () => {
 
             <Image
             src={CanadianTire}
-            alt="Canadian Tire Sign"
+            alt="the Canadian Tire logo made of acrylic and colour vinyl"
             width={1000}
             height={563}
             quality={60}
@@ -39,7 +39,7 @@ const Latest = () => {
           />
             <Image
             src={CanadianTireTruck}
-            alt="Canadian Tire Truck"
+            alt="a truck with a large Canadian Tire logo decal on the side"
             width={1000}
             height={563}
             quality={60}
@@ -47,7 +47,7 @@ const Latest = () => {
           />
           <Image
             src={ttcLogo}
-            alt="Bus Graphics"
+            alt="Toronto Transit Commission logo made of acrylic and vinyl"
             width={1000}
             height={563}
             quality={60}
