@@ -18,12 +18,12 @@ const Signage = () => {
                     <p>Indoor signage plays a vital role in guiding customers and enhancing the overall experience within your establishment. Our team at JS Designs crafts visually appealing indoor signs, including wayfinding signs, promotional displays, and informational graphics. We focus on creating designs that align with your brand identity while ensuring clarity and functionality.</p>   
                     <Image
                         src={rbc}
-                        alt="Reception Logo"
+                        alt="Close up of the reception RBC Logo sign"
                         className={styles.mainImage2}
                     />
                     <Image
                         src={shopify}
-                        alt="Reception Logo"
+                        alt="Close up of Shopify Reception Logo"
                         className={styles.mainImage2}
                     />
                     <h2>Outdoor Signage</h2>
@@ -31,12 +31,12 @@ const Signage = () => {
                     <h3>Design, Manufacturing, Instalation &amp; Maintenance</h3>
                     <Image
                         src={day}
-                        alt="Day Ross Building"
+                        alt="Day Ross building signage"
                         className={styles.mainImage2}
                     />
                     <Image
                         src={orion}
-                        alt="Orion Dental Windows"
+                        alt="Orion Dental Windows and exterior signage"
                         className={styles.mainImage2}
                     />
                 </div>
