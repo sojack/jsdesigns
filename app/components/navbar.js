@@ -4,6 +4,7 @@ import logo from "../icon-hor.svg";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import styles from "./navbar.module.css";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -26,17 +27,14 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header className="header">
-      <nav className="nav-container">
+    <header className={styles.header}>
+      <nav className={styles.navContainer}>
         {/* Logo / Brand */}
-        <Link href="/" className="brand">
+        <Link href="/" className={styles.brand}>
         <Image
             src={logo}
             alt="JS Designs"
             width={200}
-            // height={563}
-            // quality={60}
-            // className={styles.mainImage2}
           />
         </Link>
 
@@ -44,7 +42,7 @@ export default function Navbar() {
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="hamburger"
+          className={styles.hamburger}
           aria-label="Toggle navigation"
           aria-expanded={open}
           aria-controls="primary-menu"
@@ -60,32 +58,27 @@ export default function Navbar() {
         </button>
 
         {/* Desktop links */}
-        <ul className="nav-links">
+        <ul className={styles.navLinks}>
           {LINKS.map(({ href, label }) => {
             const active = pathname === href;
             return (
               <li key={href}>
                 <Link
                   href={href}
-                  className={`nav-link ${active ? "nav-link--active" : ""}`}
+                  className={`${styles.navLink} ${active ? styles.navLinkActive : ""}`}
                 >
                   {label}
                 </Link>
               </li>
             );
           })}
-          {/* <li>
-            <Link href="/signup" className="btn-outline">
-              Sign up
-            </Link>
-          </li> */}
         </ul>
       </nav>
 
       {/* Mobile menu */}
       <div
         id="primary-menu"
-        className={`mobile-menu ${open ? "mobile-menu--open" : ""}`}
+        className={`${styles.mobileMenu} ${open ? styles.mobileMenuOpen : ""}`}
       >
         <ul>
           {LINKS.map(({ href, label }) => {
@@ -94,18 +87,13 @@ export default function Navbar() {
               <li key={href}>
                 <Link
                   href={href}
-                  className={`mobile-link ${active ? "mobile-link--active" : ""}`}
+                  className={`${styles.mobileLink} ${active ? styles.mobileLinkActive : ""}`}
                 >
                   {label}
                 </Link>
               </li>
             );
           })}
-          {/* <li>
-            <Link href="/signup" className="btn-outline full-width">
-              Sign up
-            </Link>
-          </li> */}
         </ul>
       </div>
     </header>
