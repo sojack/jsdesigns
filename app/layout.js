@@ -5,7 +5,10 @@ import Footer from "./components/footer";
 
 
 export const metadata = {
-  title: "JS Designs",
+  title: {
+    default: "JS Designs",
+    template: "%s | JS Designs",
+  },
   description: "Elevate Your Brand. Transform Your Vision.",
 };
 

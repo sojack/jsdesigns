@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Privacy Policy",
+  description: "JS Designs privacy policy — how we collect, use and protect your information.",
+};
+
 import styles from "./page.module.css";
 import logo from "../images/jsdesigns-logo-onecolor-reverse.svg";
 import Image from "next/image";

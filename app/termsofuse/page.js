@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Terms of Use",
+  description: "JS Designs terms of use governing access to our website and design services.",
+};
+
 import styles from "./page.module.css";
 import logo from "../images/jsdesigns-logo-onecolor-reverse.svg";
 import Image from "next/image";

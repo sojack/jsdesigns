@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Custom Solutions",
+  description: "Wall, window and floor graphics, custom decals, vehicle wraps and printed graphics by JS Designs in Toronto.",
+};
+
 import styles from "./page.module.css";
 import Image from "next/image";
 // import rhac from ".././images/rhac-entrance.jpg";

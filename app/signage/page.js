@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Signage",
+  description: "Indoor and outdoor signage design, manufacturing, installation and maintenance by JS Designs in Toronto.",
+};
+
 import styles from "./page.module.css";
 import Image from "next/image";
 import gold from "../images/reception-gold.jpg";

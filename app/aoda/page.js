@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "AODA Compliance Services",
+  description: "AODA compliance audits, WCAG 2.0 AA remediation and 2026 accessibility report filing for Ontario businesses by JS Designs.",
+};
+
 import styles from "./page.module.css";
 
 const AODACompliance = () => {
