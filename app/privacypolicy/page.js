@@ -1,12 +1,17 @@
 export const metadata = {
   title: "Privacy Policy",
-  description: "JS Designs privacy policy — how we collect, use and protect your information.",
+  description:
+    "JS Designs privacy policy — how we collect, use and protect your information.",
+  alternates: {
+    canonical: "/privacypolicy",
+  },
 };
 
 import styles from "./page.module.css";
 import logo from "../images/jsdesigns-logo-onecolor-reverse.svg";
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumb from "../components/breadcrumb";
 
 
 const PrivacyPolicy = () => {
@@ -22,6 +27,7 @@ const PrivacyPolicy = () => {
       />
 
         <div className={styles.page}>
+            <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Privacy Policy" }]} />
             <h1>Privacy Policy</h1>
             <p>
                 Your privacy is important to us. This privacy policy explains how we collect, use, and protect your information.

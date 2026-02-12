@@ -1,0 +1,32 @@
+.breadcrumb {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+}
+
+.item + .item::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.item a {
+  color: #a2ff00;
+  text-decoration: none;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+.item span {
+  color: rgba(255, 255, 255, 0.7);
+}

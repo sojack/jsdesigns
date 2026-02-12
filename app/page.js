@@ -1,3 +1,18 @@
+export const metadata = {
+  title: "Signage, Branding & AODA Compliance in Toronto",
+  description:
+    "Toronto design studio specializing in signage, branding, custom graphics, vehicle wraps, and AODA compliance services. Over 20 years of experience elevating brands.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "JS Designs | Signage, Branding & AODA Compliance in Toronto",
+    description:
+      "Toronto design studio specializing in signage, branding, custom graphics, vehicle wraps, and AODA compliance services.",
+    url: "/",
+  },
+};
+
 import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";

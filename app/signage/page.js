@@ -1,6 +1,16 @@
 export const metadata = {
   title: "Signage",
-  description: "Indoor and outdoor signage design, manufacturing, installation and maintenance by JS Designs in Toronto.",
+  description:
+    "Indoor and outdoor signage design, manufacturing, installation and maintenance by JS Designs in Toronto.",
+  alternates: {
+    canonical: "/signage",
+  },
+  openGraph: {
+    title: "Signage | JS Designs",
+    description:
+      "Indoor and outdoor signage design, manufacturing, installation and maintenance by JS Designs in Toronto.",
+    url: "/signage",
+  },
 };
 
 import styles from "./page.module.css";
@@ -10,14 +20,36 @@ import shopify from "../images/shopify.jpg";
 import rbc from "../images/rbc-logo.jpg";
 import day from "../images/dayRoss-building.jpg";
 import orion from "../images/Orion-Dental-Layout.jpg";
+import Breadcrumb from "../components/breadcrumb";
+import RelatedServices from "../components/related-services";
 
-
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Signage Design & Installation",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "JS Designs",
+  },
+  description:
+    "Indoor and outdoor signage design, manufacturing, installation and maintenance by JS Designs in Toronto.",
+  areaServed: {
+    "@type": "Place",
+    name: "Toronto, Ontario",
+  },
+  serviceType: "Signage",
+};
 
 const Signage = () => {
     return (
         <div className={styles.page}>
             <div className={styles.container  }>
                 <div className={styles.page}>
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+                    />
+                    <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Signage" }]} />
                     <h1>Signage</h1>
                     <h2>Indoor Signage</h2>
                     <p>Indoor signage plays a vital role in guiding customers and enhancing the overall experience within your establishment. Our team at JS Designs crafts visually appealing indoor signs, including wayfinding signs, promotional displays, and informational graphics. We focus on creating designs that align with your brand identity while ensuring clarity and functionality.</p>   
@@ -44,6 +76,7 @@ const Signage = () => {
                         alt="Orion Dental Windows and exterior signage"
                         className={styles.mainImage2}
                     />
+                    <RelatedServices current="/signage" />
                 </div>
             </div>
         </div>

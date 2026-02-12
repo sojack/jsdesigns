@@ -1,14 +1,48 @@
 export const metadata = {
   title: "AODA Compliance Services",
-  description: "AODA compliance audits, WCAG 2.0 AA remediation and 2026 accessibility report filing for Ontario businesses by JS Designs.",
+  description:
+    "AODA compliance audits, WCAG 2.0 AA remediation and 2026 accessibility report filing for Ontario businesses by JS Designs.",
+  alternates: {
+    canonical: "/aoda",
+  },
+  openGraph: {
+    title: "AODA Compliance Services | JS Designs",
+    description:
+      "AODA compliance audits, WCAG 2.0 AA remediation and 2026 accessibility report filing for Ontario businesses by JS Designs.",
+    url: "/aoda",
+  },
 };
 
 import styles from "./page.module.css";
+import Breadcrumb from "../components/breadcrumb";
+import RelatedServices from "../components/related-services";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "AODA Compliance Services",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "JS Designs",
+  },
+  description:
+    "AODA compliance audits, WCAG 2.0 AA remediation and 2026 accessibility report filing for Ontario businesses.",
+  areaServed: {
+    "@type": "Place",
+    name: "Ontario, Canada",
+  },
+  serviceType: "Accessibility Compliance",
+};
 
 const AODACompliance = () => {
   return (
     <div className={styles.page}>
       <div className={styles.container}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        />
+        <Breadcrumb items={[{ name: "Home", href: "/" }, { name: "AODA Compliance" }]} />
         <h1>AODA Compliance Services</h1>
 
         <h2 className={styles.headline}>
@@ -106,6 +140,8 @@ const AODACompliance = () => {
             With over 20 years of experience in the Ontario design landscape, we understand the local regulations and the technical hurdles. We don&apos;t just build websites; we build <strong>inclusive digital experiences</strong> that protect your organization and serve your community.
           </p>
         </section>
+
+        <RelatedServices current="/aoda" />
       </div>
     </div>
   );

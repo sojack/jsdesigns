@@ -1,12 +1,17 @@
 export const metadata = {
   title: "Terms of Use",
-  description: "JS Designs terms of use governing access to our website and design services.",
+  description:
+    "JS Designs terms of use governing access to our website and design services.",
+  alternates: {
+    canonical: "/termsofuse",
+  },
 };
 
 import styles from "./page.module.css";
 import logo from "../images/jsdesigns-logo-onecolor-reverse.svg";
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumb from "../components/breadcrumb";
 
 
 const Termsofuse = () => {
@@ -22,6 +27,7 @@ const Termsofuse = () => {
       />
 
         <div className={styles.page}>
+<Breadcrumb items={[{ name: "Home", href: "/" }, { name: "Terms of Use" }]} />
 <h1>JS Designs - Terms of Use</h1>
 
 <p>Last Updated: 2024-12-04</p>
