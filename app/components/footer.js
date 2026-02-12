@@ -6,7 +6,7 @@ export default function Footer() {
       <footer className={styles.footer}>
         <div className={styles.row}>
           <div>
-                    <p className={styles.center}>&copy; 2025 JS Designs. All rights reserved.</p>
+                    <p className={styles.center}>&copy; 2026 JS Designs. All rights reserved.</p>
           </div>
           <div>
             <h3 className={styles.center}>Contact Us</h3>
